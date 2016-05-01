@@ -9,7 +9,7 @@ Author URI: http://www.katzwebservices.com/
 */
 
 class wp_wunderground {
-	var $url = 'http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=';
+	var $url = 'https://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=';
 	var $location = '90210';
 	var $icon_set = 'Incredible';
 	var $measurement = 'fahrenheit';
@@ -266,16 +266,16 @@ class wp_wunderground {
 
 		$output .= '
 			<div style="margin-top:1em; text-align:center;">
-			<div style="padding-right:10px; width:100px; height:75px; float:left;"><img src="http://icons-ak.wxug.com/i/c/a/clear.gif" width="50" height="50" /><img src="http://icons-ak.wxug.com/i/c/a/rain.gif" width="50" height="50" /><br />Default</div>
-			<div style="padding-right:10px; width:100px; height:67px; float:left; padding-top:8px;"><img src="http://icons-ak.wxug.com/i/c/b/clear.gif" width="42" height="42" /><img src="http://icons-ak.wxug.com/i/c/b/rain.gif" width="42" height="42" /><br />Smiley</div>
-			<div style="padding-right:10px; width:100px; height:75px; float:left;"><img src="http://icons-ak.wxug.com/i/c/c/clear.gif" width="50" height="50" /><img src="http://icons-ak.wxug.com/i/c/c/rain.gif" width="50" height="50" /><br />Generic</div>
-			<div style="padding-right:10px; width:100px; height:67px; float:left; padding-top:8px;"><img src="http://icons-ak.wxug.com/i/c/d/clear.gif" width="42" height="42" /><img src="http://icons-ak.wxug.com/i/c/d/rain.gif" width="42" height="42" /><br />Old School</div>
-			<div style="padding-right:10px; width:100px; height:67px; float:left; padding-top:8px;"><img src="http://icons-ak.wxug.com/i/c/e/clear.gif" width="42" height="42" /><img src="http://icons-ak.wxug.com/i/c/e/rain.gif" width="42" height="42" /><br />Cartoon</div>
-			<div style="padding-right:10px; width:100px; height:67px; float:left; padding-top:8px;"><img src="http://icons-ak.wxug.com/i/c/f/clear.gif" width="42" height="42" /><img src="http://icons-ak.wxug.com/i/c/f/rain.gif" width="42" height="42" /><br />Mobile</div>
-			<div style="padding-right:10px; width:100px; height:75px; float:left;"><img src="http://icons-ak.wxug.com/i/c/g/clear.gif" width="50" height="50" /><img src="http://icons-ak.wxug.com/i/c/g/rain.gif" width="50" height="50" /><br />Simple</div>
-			<div style="padding-right:10px; width:100px; height:75px; float:left;"><img src="http://icons-ak.wxug.com/i/c/h/clear.gif" width="50" height="50" /><img src="http://icons-ak.wxug.com/i/c/h/rain.gif" width="50" height="50" /><br />Contemporary</div>
-			<div style="padding-right:10px; width:100px; height:75px; float:left;"><img src="http://icons-ak.wxug.com/i/c/i/clear.gif" width="50" height="50" /><img src="http://icons-ak.wxug.com/i/c/i/rain.gif" width="50" height="50" /><br />Helen</div>
-			<div style="padding-right:10px; width:100px; height:75px; float:left;"><img src="http://icons-ak.wxug.com/i/c/k/clear.gif" width="50" height="50" /><img src="http://icons-ak.wxug.com/i/c/k/rain.gif" width="50" height="50" /><br />Incredible</div>
+			<div style="padding-right:10px; width:100px; height:75px; float:left;"><img src="https://icons-ak.wxug.com/i/c/a/clear.gif" width="50" height="50" /><img src="https://icons-ak.wxug.com/i/c/a/rain.gif" width="50" height="50" /><br />Default</div>
+			<div style="padding-right:10px; width:100px; height:67px; float:left; padding-top:8px;"><img src="https://icons-ak.wxug.com/i/c/b/clear.gif" width="42" height="42" /><img src="https://icons-ak.wxug.com/i/c/b/rain.gif" width="42" height="42" /><br />Smiley</div>
+			<div style="padding-right:10px; width:100px; height:75px; float:left;"><img src="https://icons-ak.wxug.com/i/c/c/clear.gif" width="50" height="50" /><img src="https://icons-ak.wxug.com/i/c/c/rain.gif" width="50" height="50" /><br />Generic</div>
+			<div style="padding-right:10px; width:100px; height:67px; float:left; padding-top:8px;"><img src="https://icons-ak.wxug.com/i/c/d/clear.gif" width="42" height="42" /><img src="https://icons-ak.wxug.com/i/c/d/rain.gif" width="42" height="42" /><br />Old School</div>
+			<div style="padding-right:10px; width:100px; height:67px; float:left; padding-top:8px;"><img src="https://icons-ak.wxug.com/i/c/e/clear.gif" width="42" height="42" /><img src="https://icons-ak.wxug.com/i/c/e/rain.gif" width="42" height="42" /><br />Cartoon</div>
+			<div style="padding-right:10px; width:100px; height:67px; float:left; padding-top:8px;"><img src="https://icons-ak.wxug.com/i/c/f/clear.gif" width="42" height="42" /><img src="https://icons-ak.wxug.com/i/c/f/rain.gif" width="42" height="42" /><br />Mobile</div>
+			<div style="padding-right:10px; width:100px; height:75px; float:left;"><img src="https://icons-ak.wxug.com/i/c/g/clear.gif" width="50" height="50" /><img src="https://icons-ak.wxug.com/i/c/g/rain.gif" width="50" height="50" /><br />Simple</div>
+			<div style="padding-right:10px; width:100px; height:75px; float:left;"><img src="https://icons-ak.wxug.com/i/c/h/clear.gif" width="50" height="50" /><img src="https://icons-ak.wxug.com/i/c/h/rain.gif" width="50" height="50" /><br />Contemporary</div>
+			<div style="padding-right:10px; width:100px; height:75px; float:left;"><img src="https://icons-ak.wxug.com/i/c/i/clear.gif" width="50" height="50" /><img src="https://icons-ak.wxug.com/i/c/i/rain.gif" width="50" height="50" /><br />Helen</div>
+			<div style="padding-right:10px; width:100px; height:75px; float:left;"><img src="https://icons-ak.wxug.com/i/c/k/clear.gif" width="50" height="50" /><img src="https://icons-ak.wxug.com/i/c/k/rain.gif" width="50" height="50" /><br />Incredible</div>
 			</div>
 		';
 
@@ -516,16 +516,16 @@ EOD;
 		if(!$icon_set) { $icon_set = $this->icon_set; }
 		// This may be slightly faster; let's try this first.
 		switch($icon_set) {
-			case 'Default':			return 'http://icons-ak.wxug.com/i/c/a/'; break;
-			case 'Smiley':			return 'http://icons-ak.wxug.com/i/c/b/'; break;
-			case 'Generic':			return 'http://icons-ak.wxug.com/i/c/c/'; break;
-			case 'Old School':		return 'http://icons-ak.wxug.com/i/c/d/'; break;
-			case 'Cartoon':			return 'http://icons-ak.wxug.com/i/c/e/'; break;
-			case 'Mobile':			return 'http://icons-ak.wxug.com/i/c/f/'; break;
-			case 'Simple':			return 'http://icons-ak.wxug.com/i/c/g/'; break;
-			case 'Contemporary':	return 'http://icons-ak.wxug.com/i/c/h/'; break;
-			case 'Helen': 			return 'http://icons-ak.wxug.com/i/c/i/'; break;
-			case 'Incredible':		return 'http://icons-ak.wxug.com/i/c/k/'; break;
+			case 'Default':			return 'https://icons-ak.wxug.com/i/c/a/'; break;
+			case 'Smiley':			return 'https://icons-ak.wxug.com/i/c/b/'; break;
+			case 'Generic':			return 'https://icons-ak.wxug.com/i/c/c/'; break;
+			case 'Old School':		return 'https://icons-ak.wxug.com/i/c/d/'; break;
+			case 'Cartoon':			return 'https://icons-ak.wxug.com/i/c/e/'; break;
+			case 'Mobile':			return 'https://icons-ak.wxug.com/i/c/f/'; break;
+			case 'Simple':			return 'https://icons-ak.wxug.com/i/c/g/'; break;
+			case 'Contemporary':	return 'https://icons-ak.wxug.com/i/c/h/'; break;
+			case 'Helen': 			return 'https://icons-ak.wxug.com/i/c/i/'; break;
+			case 'Incredible':		return 'https://icons-ak.wxug.com/i/c/k/'; break;
 		}
 		// If this doesn't work, use the other method
 		$this->get_icon_url($icons, $icon_set);
